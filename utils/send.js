@@ -1,4 +1,4 @@
-module.exports = function (msg, kwargs, msg2=null){
+module.exports = async function (msg, kwargs){
     let author = msg.author;
     let date = msg.createdAt;
     let guild = msg.guild;
@@ -8,5 +8,11 @@ module.exports = function (msg, kwargs, msg2=null){
     str += `\n[${guild} @${date.toUTCString()}] Returned ${JSON.stringify(kwargs)}\n`;
     console.log(str);
     
-    msg.channel.send(kwargs);
+    try{
+        await msg.channel.send(kwargs);
+    }
+    catch(e){
+        console.log(e)
+        await msg.channel.send({content: "Unkown error"})
+    }
 }

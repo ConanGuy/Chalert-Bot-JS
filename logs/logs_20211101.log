@@ -1,0 +1,23 @@
+[Logs @Mon, 01 Nov 2021 18:43:21 GMT] Chalert has connected to Discord
+
+[Voum Voum la voitue @Mon, 01 Nov 2021 18:46:01 GMT] 'ConanGuy has joined a VoiceChannel in Voum Voum la voitue !!' send to Elahine
+
+/home/conan/NodeJS/Chalert-Bot-JS/commands/commands.js:8
+const command_prefix = process.env.PREFIX.split(", ");
+                                          ^
+
+TypeError: Cannot read properties of undefined (reading 'split')
+    at Object.<anonymous> (/home/conan/NodeJS/Chalert-Bot-JS/commands/commands.js:8:43)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1101:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[90m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+    at Object.<anonymous> (/home/conan/NodeJS/Chalert-Bot-JS/index.js:3:24)
+[90m    at Module._compile (node:internal/modules/cjs/loader:1101:14)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)[39m
+[Logs @Mon, 01 Nov 2021 18:55:00 GMT] Chalert has connected to Discord
+
+[Voum Voum la voitue @Mon, 01 Nov 2021 18:55:48 GMT] 'ConanGuy has joined a VoiceChannel in Voum Voum la voitue !!' send to Elahine
+

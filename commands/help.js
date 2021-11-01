@@ -10,6 +10,16 @@ const utils = require("../utils.js");
         },
 */
 const helpCommands = {
+    "ignore": {
+        "Aliases": ["ignore", "i"],
+        "Description": ["Enable or disable the ignore option. If enable, Chalert users will not be alert when you join a channel."],
+        "Options": []
+    },
+    "cooldown": {
+        "Aliases": ["cooldown", "cd"],
+        "Description": ["Change the cooldown value. If no argument is given, shows the current value.\nOnly for ADMINISTRATORS"],
+        "Options": ["cooldown"]
+    },
 }
 
 async function help(msg, args) {
@@ -70,7 +80,7 @@ async function help(msg, args) {
 
     // Create help embed
     const embed = new MessageEmbed()
-    .setTitle("Command '"+cmd+"': ")
+    .setTitle("Command '"+alias+"': ")
 	.addFields(
 		{ name: 'Aliases', value: aliasesStr == "" ? "None" : aliasesStr },
 		{ name: 'Description', value: descStr == "" ? "None" : descStr},

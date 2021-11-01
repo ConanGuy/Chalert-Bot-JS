@@ -1,11 +1,18 @@
 const utils = require("../utils.js");
+
 const help = require("./help.js")
+const ignore = require("./settings/ignore.js")
+const cooldown = require("./settings/cooldown.js")
 
 require('dotenv').config();
 const command_prefix = process.env.PREFIX.split(", ");
 
 const commands = {
-    help: help, h: help
+    help: help, h: help,
+
+    ignore: ignore, i: ignore,
+
+    cooldown: cooldown, cd: cooldown
 };
 
 module.exports = async function (msg){
