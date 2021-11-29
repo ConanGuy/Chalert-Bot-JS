@@ -1,5 +1,6 @@
 module.exports = {
     get_default_channel: require("./utils/get_default_channel.js"),
+    count_chalert_users: require("./utils/count_chalert_users.js"),
 
     send: require("./utils/send.js"),
     
@@ -8,5 +9,6 @@ module.exports = {
     load_guilds:  require("./utils/load_guilds.js"),
     save_guilds:  require("./utils/save_guilds.js"),
 
-    SQL: require("./utils/SQL.js")
+    conan: null,
+    botMember: null,
 }

@@ -1,14 +1,134 @@
 {
-	"891000842788937748": {
-		"id": "891000842788937748",
-		"last_update": "2021-11-01T18:55:48.242Z",
-		"cooldown": 5,
-		"ignore": []
-	},
 	"853749415927349310": {
 		"id": "853749415927349310",
-		"last_update": "2021-11-01T15:20:33.201Z",
+		"last_update": "2021-11-09T10:28:57.543Z",
 		"cooldown": 5,
-		"ignore": []
+		"ignore": [],
+		"name": "Minecraft étou",
+		"prefix": "c.",
+		"toAlert": [],
+		"channel": "875129553381625867",
+		"nbAlert": 2,
+		"lastRoleWarning": "1970-01-01T00:00:00.000Z"
+	},
+	"811419658238033920": {
+		"id": "811419658238033920",
+		"last_update": "2021-11-25T14:48:06.127Z",
+		"cooldown": 5,
+		"ignore": [],
+		"name": "Arkuuu Ki duniya",
+		"prefix": "chalert.",
+		"toAlert": [],
+		"channel": null,
+		"nbAlert": 0,
+		"lastRoleWarning": "2021-11-29T14:00:05.695Z"
+	},
+	"891000842788937748": {
+		"id": "891000842788937748",
+		"last_update": "2021-11-27T22:50:39.861Z",
+		"cooldown": 5,
+		"ignore": [],
+		"name": "Voum Voum la voitue",
+		"prefix": "c.",
+		"toAlert": [],
+		"channel": "894571927438520390",
+		"nbAlert": 28,
+		"lastRoleWarning": "1970-01-01T00:00:00.000Z"
+	},
+	"904890937178722345": {
+		"id": "904890937178722345",
+		"last_update": "1970-01-01T00:00:00.000Z",
+		"cooldown": 5,
+		"ignore": [],
+		"name": "Wave818's server",
+		"prefix": "chalert.",
+		"toAlert": [],
+		"channel": null,
+		"nbAlert": 0,
+		"lastRoleWarning": "1970-01-01T00:00:00.000Z"
+	},
+	"905816794772680764": {
+		"id": "905816794772680764",
+		"last_update": "2021-11-27T11:10:29.167Z",
+		"cooldown": 5,
+		"ignore": [],
+		"name": "pojeby <333",
+		"prefix": "chalert.",
+		"toAlert": [],
+		"channel": null,
+		"nbAlert": 0,
+		"lastRoleWarning": "1970-01-01T00:00:00.000Z"
+	},
+	"901461442589491280": {
+		"id": "901461442589491280",
+		"last_update": "1970-01-01T00:00:00.000Z",
+		"cooldown": 5,
+		"ignore": [],
+		"name": "In the moon world...",
+		"prefix": "chalert.",
+		"toAlert": [],
+		"channel": null,
+		"nbAlert": 0,
+		"lastRoleWarning": "1970-01-01T00:00:00.000Z"
+	},
+	"694994318468841542": {
+		"id": "694994318468841542",
+		"last_update": "2021-11-29T05:34:32.522Z",
+		"cooldown": 5,
+		"ignore": [],
+		"name": "Poderosos LTDA",
+		"prefix": "chalert.",
+		"toAlert": [],
+		"channel": null,
+		"nbAlert": 0,
+		"lastRoleWarning": "2021-11-29T14:00:05.095Z"
+	},
+	"903882544829841409": {
+		"id": "903882544829841409",
+		"last_update": "1970-01-01T00:00:00.000Z",
+		"cooldown": 5,
+		"ignore": [],
+		"name": "🥷🏿| moderator/in",
+		"prefix": "chalert.",
+		"toAlert": [],
+		"channel": null,
+		"nbAlert": 0,
+		"lastRoleWarning": "1970-01-01T00:00:00.000Z"
+	},
+	"876835960309047326": {
+		"id": "876835960309047326",
+		"last_update": "2021-11-29T10:07:08.627Z",
+		"cooldown": 5,
+		"ignore": [],
+		"name": "-오징어 게임⍫",
+		"prefix": "chalert.",
+		"toAlert": [],
+		"channel": null,
+		"nbAlert": 0,
+		"lastRoleWarning": "2021-11-29T14:00:06.283Z"
+	},
+	"806232437545238568": {
+		"id": "806232437545238568",
+		"last_update": "2021-11-27T15:57:07.923Z",
+		"cooldown": 5,
+		"ignore": [],
+		"name": "ReyiZz",
+		"prefix": "chalert.",
+		"toAlert": [],
+		"channel": null,
+		"nbAlert": 0,
+		"lastRoleWarning": "2021-11-29T14:00:05.389Z"
+	},
+	"901747122204991528": {
+		"id": "901747122204991528",
+		"last_update": "1970-01-01T00:00:00.000Z",
+		"cooldown": 5,
+		"ignore": [],
+		"name": "EĞLENCE_GURUBU",
+		"prefix": "chalert.",
+		"toAlert": [],
+		"channel": null,
+		"nbAlert": 0,
+		"lastRoleWarning": "2021-11-29T14:00:07.115Z"
 	}
 }

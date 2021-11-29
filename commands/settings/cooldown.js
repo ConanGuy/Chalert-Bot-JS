@@ -23,7 +23,7 @@ async function command(msg, args) {
     else{
         let now = new Date()
         let timeDiff = Math.floor(Math.abs(now - Date.parse(guildsJson[guild.id].last_update)) / 1000)
-	let timeLeft = guildsJson[guild.id].cooldown*60 - timeDiff
+	    let timeLeft = guildsJson[guild.id].cooldown*60 - timeDiff
         await utils.send(msg, {content: "Current cooldown is "+guildsJson[guild.id].cooldown+" minutes for this server"+(timeLeft>0 ? " ("+timeLeft+"s left)" : "")})
     }
 }
